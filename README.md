@@ -129,17 +129,3 @@ This repository includes:
 - a `.gitignore` that excludes cache files, datasets, and model/vector artifacts
 - a `docs/` directory layout for the PDF corpus
 
-## Important Submission Note
-
-The notebook currently appears to use:
-- `documents/` as the PDF input folder
-- local Chroma persistence in `./chroma_db`
-- downloaded or generated data artifacts during execution
-
-Before submission, make sure all paths are consistent and that large generated artifacts are excluded from version control.
-
-## Suggested Final Checks
-- confirm all notebook cells run in order
-- confirm `docs/` contains the final PDF corpus
-- confirm secrets are not committed
-- confirm `__pycache__/`, raw data, and vector stores are ignored
